@@ -58,5 +58,5 @@ $intensity: (
 );
 
 @mixin frost($intensity) {
-  filter:blur($intesity)
+  filter:blur($intensity)
 };
