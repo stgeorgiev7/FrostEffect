@@ -46,4 +46,16 @@
   :-moz-placeholder           {@content}
   ::-moz-placeholder          {@content}
   :-ms-input-placeholder      {@content}
+};
+
+$intensity: (
+  1: 1px,
+  2: 2px,
+  3: 3px, 
+  4: 4px,
+  5: 5px
+);
+
+@mixin frost($intensity) {
+  filter:blur($intesity)
 }
